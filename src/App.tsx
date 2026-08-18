@@ -10,7 +10,7 @@ import "./App.css";
 import { Toaster } from "./components/refine-ui/notification/toaster";
 import { useNotificationProvider } from "./components/refine-ui/notification/use-notification-provider";
 import { ThemeProvider } from "./components/refine-ui/theme/theme-provider";
-import { dataProvider } from "./providers/data";
+import { dataProvider } from "@/provider 2/data.ts";
 import Dashboard from '@/pages/dashboard.tsx';
 
 import { BookOpen, Home } from 'lucide-react';
